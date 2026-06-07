@@ -1,7 +1,10 @@
 #EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large-instruct"
+#EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large-instruct"
+EMBEDDING_MODEL_NAME = "BAAI/bge-m3"
+
 #GENERATION_MODEL_NAME = "google/flan-t5-base"
-GENERATION_MODEL_NAME = "Qwen/Qwen2.5-3B-Instruct"
+GENERATION_MODEL_NAME = "Qwen/Qwen2.5-1.5B-Instruct"
+
 #RERANK_MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L6-v2"
 RERANK_MODEL_NAME = "BAAI/bge-reranker-v2-m3"
 
