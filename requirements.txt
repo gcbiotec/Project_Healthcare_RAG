@@ -1,10 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 streamlit==1.44.1
 transformers==4.51.3
-torch==2.3.1
 sentence-transformers==4.1.0
+torch==2.3.1+cpu
 faiss-cpu==1.10.0
 pypdf==5.4.0
 python-docx==1.1.2
-numpy>=1.26.0
-pandas>=2.2.0
 accelerate==0.28.0
